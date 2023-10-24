@@ -1,0 +1,12 @@
+[package]
+name = "wasm-app"
+version = "0.0.1"
+edition = "2021"
+
+[dependencies]
+wasmedge-bindgen = "0.4.1"
+wasmedge-bindgen-macro = "0.4.1"
+
+[lib]
+crate-type = ["cdylib"]
+

@@ -1,0 +1,7 @@
+[workspace]
+members = [
+  "wasm-runner",
+  "wasm-app"
+]
+resolver = "2"
+

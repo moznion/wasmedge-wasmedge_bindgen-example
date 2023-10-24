@@ -1,0 +1,7 @@
+[package]
+name = "wasm-runner"
+version = "0.0.1"
+edition = "2021"
+
+[dependencies]
+wasmedge-sdk = "0.12.2"
